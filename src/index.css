@@ -1,0 +1,10 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-image: linear-gradient(rgba(245, 245, 240, 0.92), rgba(245, 245, 240, 0.92)), url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRe0cq0qfzcrSM3Q5gl7B9XLZK5AGhKYONQQA&s');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+  }
+}

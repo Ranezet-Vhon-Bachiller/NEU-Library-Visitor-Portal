@@ -1,0 +1,5 @@
+{
+  "name": "NEU Library Visitor Log",
+  "description": "A full-stack web application to record and manage visitor logs for the New Era University Library, featuring an admin dashboard with analytics and user blocking capabilities.",
+  "requestFramePermissions": []
+}
