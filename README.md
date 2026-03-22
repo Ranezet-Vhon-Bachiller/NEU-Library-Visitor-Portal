@@ -1,6 +1,7 @@
 # NEU Library Visitor Portal
 
 A modern, real-time visitor logging and management system for the New Era University Library.
+live webiste link: https://neu-library-visitor-portal.vercel.app/
 
 ## 🚀 Features
 
