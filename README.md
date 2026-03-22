@@ -1,5 +1,4 @@
 # NEU Library Visitor Portal
-Website: https://neu-library-visitor-portal.vercel.app/
 
 A modern, real-time visitor logging and management system for the New Era University Library.
 
@@ -20,6 +19,21 @@ A modern, real-time visitor logging and management system for the New Era Univer
   - Block/Unblock specific email addresses to manage library access.
   - Custom confirmation modals for critical actions.
 - **Export Data**: Ability to export visitor logs for reporting (CSV format).
+
+## 🚀 Deployment to Vercel
+
+To host your **NEU Library Visitor Portal** on Vercel:
+
+1.  **Export your code**: Use the **Settings** menu in AI Studio to **Download as ZIP** or **Export to GitHub**.
+2.  **Create a Vercel Project**: Go to [vercel.com](https://vercel.com/) and import your repository or upload the ZIP.
+3.  **Configure Build Settings**:
+    - **Framework Preset**: Vite
+    - **Build Command**: `npm run build`
+    - **Output Directory**: `dist`
+4.  **Add Environment Variables**: In your Vercel project settings, add any variables from your `.env` or `firebase-applet-config.json` if you're using them.
+5.  **Authorize the Vercel Domain in Firebase**:
+    - Go to your [Firebase Console](https://console.firebase.google.com/) > **Authentication** > **Settings** > **Authorized Domains**.
+    - Add your new Vercel domain (e.g., `neu-library.vercel.app`). **This is required for Google Login to work.**
 
 ## 🛠️ Tech Stack
 
